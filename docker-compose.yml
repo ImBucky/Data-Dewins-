@@ -18,8 +18,8 @@ services:
         volumes:
             - ./docker/db:/var/lib/mysql
         environment:
-            MYSQL_ROOT_PASSWORD: secret
+            MYSQL_ROOT_PASSWORD: bucky
             MYSQL_USER: group5
-            MYSQL_PASSWORD: pass5
+            MYSQL_PASSWORD: averma
         ports:
             - "9906:3306"
