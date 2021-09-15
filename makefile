@@ -14,10 +14,6 @@ up: prepare
 			mkdir www && cd ../../ ;\
 		fi ;\
 	fi
-#	@sudo mkdir docker;
-#	@sudo mkdir ./docker/www;
-#	@sudo mkdir ./docker/db;
-#	@sudo cd ../../ ;
 	@sudo cp ./index.php ./docker/www/;
 	@sudo docker-compose up -d
 	@echo "\n__________Wait for 15 seconds_____________\n"
